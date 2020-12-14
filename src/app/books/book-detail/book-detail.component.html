@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <img [src]="book.imagepath" height="250px" width="300px" alt="" class="img-responsive">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>{{book.author}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Manage Book
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" style="cursor: pointer;" (click)="EditBookDetails()">Edit Recipe</a>
+                    <a class="dropdown-item" style="cursor: pointer;" (click)="AssignToUser(book)">Assign To Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>{{book.name}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="clo-xs-12">
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor=" let bok of book| async ">
+                    {{bok.name}} - {{bok.author}} - {{bok.quantity}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

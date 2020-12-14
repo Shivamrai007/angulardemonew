@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Shivam",
+      "Lastname": "Rai",
+      "email": "shivam.rai@hcl.com",
+      "book": "Half Blood Prince",
+      "region": "Asia",
+      "dob": "19/11/1997",
+      "country": "India",
+      "state": "Maharashtra",
+      "city": "Nagpur"
+    },
+    {
+      "firstName": "Rohan",
+      "lastName": "Chavhan",
+      "email": "rohan@gmail.com",
+      "book": "Pursuit of Hapiness",
+      "region": "Asia6",
+      "dob": "23/12/1996",
+      "country": "India",
+      "state": "Maharashtra",
+      "city": "Nagpur",
+      "id": 2
+    },
+    {
+      "firstName": "Karan",
+      "lastName": "Raut",
+      "email": "karan.r@gmail.com",
+      "book": "The Complete Reference",
+      "dob": "19/2/1999",
+      "country": "India",
+      "state": "Maharashtra",
+      "city": "Nagpur",
+      "id": 3
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Half Blood Prince",
+      "author": "Professor Snape",
+      "quantity": 10
+    },
+    {
+      "name": "Pursuit of Hapiness",
+      "author": "Will Smith",
+      "imagepath": "https://upload.wikimedia.org/wikipedia/en/c/c6/Half_Girlfriend.jpg",
+      "id": 3
+    },
+    {
+      "name": "The Complete Reference",
+      "author": "James Gosling",
+      "imagepath": "https://upload.wikimedia.org/wikipedia/en/4/44/Revolution_2020.jpg",
+      "id": 4
+    },
+    {
+      "name": "The Jungle Book",
+      "author": "John Doe",
+      "imagepath": "NA",
+      "id": 5
+    },
+    {
+      "name": "Hello World ",
+      "author": "MArtin Luther",
+      "imagepath": "abcd",
+      "id": 6
+    }
+  ]
+}

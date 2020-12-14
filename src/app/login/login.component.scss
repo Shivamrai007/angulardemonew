@@ -1,0 +1,32 @@
+.container-login{
+    height: 300px;
+    width: 400px;
+    border: 3px #000;
+    text-align: center;
+    align-content: center;
+    background-color: #fff;
+    margin: auto;
+    border: 2px solid rgb(256,256,256);
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+h2{
+    color: lightskyblue;
+}
+
+input.ng-valid{
+    border: 1px greenyellow;
+}
+
+input.ng-invalid{
+    border: 1px red;
+}
+
+.card-login{
+    
+    margin: auto;
+  
+    height: 300px;
+    width: 100px;
+}

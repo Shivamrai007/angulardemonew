@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <app-edit-book></app-edit-book>
+        </div>
+        <hr>
+        <div class="col-md-7">
+            <ul class="list-group">
+                <p style="color: rgba(0, 0, 0, 0.842)">Following Are The books Assigned On Your Name</p>
+                <a class="list-group-item" style="cursor: pointer;" *ngFor="let book of books | async">
+                    {{book.name}} {{book.author}} {{book.quantity}}
+                </a>
+            </ul>
+            <hr />
+            <button type="button" class="btn btn-primary btn-md btn-block" (click)="deleteBooks()">Delete Books</button>
+        </div>
+    </div>
+</div>
